@@ -18,7 +18,8 @@ int main()
 	cout << "Сумма: " << firstnum + secondnum << endl;
 	cout << "Разность: " << abs(firstnum - secondnum) << endl;
 	cout << "Среднее арифметическое: " << (abs(firstnum) + abs(secondnum)) / 2 << endl;
-	
+	cout << "Произведение: " << firstnum * secondnum << endl;
+	cout << "Частное: " << firstnum / secondnum << endl;
 	_getch();
 	return 0;
 }
